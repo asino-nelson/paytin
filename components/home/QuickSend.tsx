@@ -5,12 +5,12 @@ import data from '../../assets/data.json'
 
 const QuickSend = () => {
     return (
-        <View className='w-full flex-col items-center justify-center my-4 bg-white px-3 py-2 rounded-2xl'>
+        <View className='w-full flex-col items-center justify-center my-4 bg-white px-3 py-2 rounded-3xl'>
             <View className='flex-row w-full items-center justify-between p-2'>
-                <Text className='text-lg font-bold'>Quick Send</Text>
+                <Text className='text-xl font-bold'>Quick Send</Text>
                 <TouchableOpacity className='flex-row items-center justify-between'>
                     <Text className='font-semibold'>See all </Text>
-                    <Ionicons name="chevron-forward-outline" size={20} color="black" />
+                    <Ionicons name="chevron-forward-outline" size={15} color="black" />
                 </TouchableOpacity>
             </View>
             <FlatList

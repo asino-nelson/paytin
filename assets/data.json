@@ -11,10 +11,10 @@
     }
   },
 "actions": [
-  { "name": "Send", "icon": "send" },
-  { "name": "Bill", "icon": "card" },
-  { "name": "Mobile", "icon": "laptop" },
-  { "name": "More", "icon": "menu" }
+  { "name": "Send", "icon": "arrow-redo-outline" },
+  { "name": "Bill", "icon": "card-outline" },
+  { "name": "Mobile", "icon": "phone-portrait-outline" },
+  { "name": "More", "icon": "ellipsis-horizontal-outline" }
 ],
 
   "quick_send": [
@@ -26,19 +26,28 @@
   ],
   "recent_activity": [
     {
+      "icon": "fast-food-outline",
       "title": "Food Store",
       "date": "Monday, 25 January",
-      "amount": -15.00
+      "amount": 15.00
     },
     {
+      "icon": "home-outline",
       "title": "House Rent",
       "date": "Monday, 25 January",
-      "amount": -290.00
+      "amount": 290.00
     },
     {
-      "title": "Food Store",
+      "icon": "cart-outline",
+      "title": "Groceries",
       "date": "Sunday, 24 January",
-      "amount": -27.00
+      "amount": 27.00
+    },
+    {
+      "icon": "car-sport-outline",
+      "title": "Car Fuel",
+      "date": "Sunday, 24 January",
+      "amount": 30.00
     }
   ],
   "statistics": {
