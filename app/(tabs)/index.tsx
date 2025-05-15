@@ -1,11 +1,13 @@
-import { Text } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import WelcomeUser from '@/components/home/WelcomeUser';
+import { Text, View } from 'react-native';
 
 export default function HomeScreen() {
   return (
-    <SafeAreaView>
-      <Text>Explore</Text>
-    </SafeAreaView>
+    <View className='p-5 flex-1'>
+      <WelcomeUser />
+
+
+    </View>
   );
 }
 
