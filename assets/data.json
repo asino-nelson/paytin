@@ -1,0 +1,66 @@
+{
+  "user": {
+    "name": "William Current",
+    "profile_picture": "https://example.com/profile.jpg",
+    "greeting": "Welcome Back 👋",
+    "card": {
+      "type": "Visa",
+      "balance": 25453.00,
+      "number": "**** **** **** 7281",
+      "expiry": "07/26"
+    }
+  },
+  "actions": [
+    { "name": "Send" },
+    { "name": "Bill" },
+    { "name": "Mobile" },
+    { "name": "More" }
+  ],
+  "quick_send": [
+    { "name": "Azie", "avatar": "https://example.com/azie.jpg" },
+    { "name": "Chaoir", "avatar": "https://example.com/chaoir.jpg" },
+    { "name": "Pandlit", "avatar": "https://example.com/pandlit.jpg" },
+    { "name": "Happy", "avatar": "https://example.com/happy.jpg" },
+    { "name": "Nayu", "avatar": "https://example.com/nayu.jpg" }
+  ],
+  "recent_activity": [
+    {
+      "title": "Food Store",
+      "date": "Monday, 25 January",
+      "amount": -15.00
+    },
+    {
+      "title": "House Rent",
+      "date": "Monday, 25 January",
+      "amount": -290.00
+    },
+    {
+      "title": "Food Store",
+      "date": "Sunday, 24 January",
+      "amount": -27.00
+    }
+  ],
+  "statistics": {
+    "period": "monthly",
+    "earning": {
+      "percentage": 24,
+      "goal": 2567,
+      "goal_target": 5500
+    },
+    "spending": {
+      "total": 3250.80,
+      "breakdown": {
+        "debit_card": 2100.00,
+        "credit_card": 1150.80
+      }
+    },
+    "monthly_chart": [
+      { "month": "Jan", "debit": 1200, "credit": 800 },
+      { "month": "Feb", "debit": 1500, "credit": 1000 },
+      { "month": "Mar", "debit": 1800, "credit": 900 },
+      { "month": "Apr", "debit": 2000, "credit": 1100 },
+      { "month": "May", "debit": 2410, "credit": 1150 },
+      { "month": "Jun", "debit": 1800, "credit": 950 }
+    ]
+  }
+}
