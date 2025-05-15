@@ -18,11 +18,11 @@
 ],
 
   "quick_send": [
-    { "name": "Azie", "avatar": "https://example.com/azie.jpg" },
-    { "name": "Chaoir", "avatar": "https://example.com/chaoir.jpg" },
-    { "name": "Pandlit", "avatar": "https://example.com/pandlit.jpg" },
-    { "name": "Happy", "avatar": "https://example.com/happy.jpg" },
-    { "name": "Nayu", "avatar": "https://example.com/nayu.jpg" }
+    { "name": "Azie", "avatar": "https://i.pinimg.com/736x/69/41/08/694108f10aad87c24a9190d3ab008665.jpg" },
+    { "name": "Chaoir", "avatar": "https://i.pinimg.com/736x/27/a5/f1/27a5f149e2ba454f640a1b8a672c82b7.jpg" },
+    { "name": "Pandlit", "avatar": "https://i.pinimg.com/736x/f0/23/f2/f023f20924bd8b839611591417ff89c0.jpg" },
+    { "name": "Happy", "avatar": "https://i.pinimg.com/736x/ee/b3/61/eeb3610d455077fed3aab148cedf2611.jpg" },
+    { "name": "Nayu", "avatar": "https://i.pinimg.com/736x/4d/30/8c/4d308c50ef15e9287888b4feb6e2fd25.jpg" }
   ],
   "recent_activity": [
     {
