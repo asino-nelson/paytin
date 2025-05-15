@@ -3,19 +3,24 @@ import Card from '@/components/home/Card';
 import QuickSend from '@/components/home/QuickSend';
 import RecentActivity from '@/components/home/RecentActivity';
 import WelcomeUser from '@/components/home/WelcomeUser';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
   return (
-    <View className='p-5 flex-1 bg-lime-100'>
-      <WelcomeUser />
-      <Card />
-      <ActionItems />
-      <QuickSend />
-      <RecentActivity />
+    <SafeAreaView >
+      <ScrollView
+        className=' px-5 pb-20 bg-lime-200 '
+        showsVerticalScrollIndicator={false}
+      >
+        <WelcomeUser />
+        <Card />
+        <ActionItems />
+        <QuickSend />
+        <RecentActivity />
+      </ScrollView>
+    </SafeAreaView >
 
-
-    </View>
   );
 }
 

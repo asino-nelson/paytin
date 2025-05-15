@@ -6,7 +6,7 @@ import { Ionicons } from '@expo/vector-icons'
 const Card = () => {
     return (
         <View>
-            <TouchableOpacity className='absolute z-50 right-0 top-4 flex-row w-40 items-center bg-lime-300 p-3 rounded-tr-3xl rounded-bl-3xl'>
+            <TouchableOpacity className='absolute z-50 right-0 top-4 flex-row w-40 items-center bg-lime-500 p-3 rounded-tr-3xl rounded-bl-3xl'>
                 <Ionicons name="add-circle-sharp" size={26} color="black" />
                 <Text className='font-semibold text-sm ml-1'>Set Budget</Text>
             </TouchableOpacity>

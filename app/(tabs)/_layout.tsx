@@ -9,6 +9,8 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
+        headerShown: false,
+        headerShadowVisible: false,
         tabBarStyle: Platform.select({
           ios: {
             // Use a transparent background on iOS to show the blur effect
@@ -27,7 +29,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="explore"
         options={{
-          title: 'Explore',
+          title: 'Stats',
           tabBarIcon: ({ focused }) => <Ionicons size={28} name={focused ? 'trophy' : 'trophy-outline'} color="black" />,
         }}
       />
