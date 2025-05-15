@@ -12,8 +12,8 @@
   },
 "actions": [
   { "name": "Send", "icon": "send" },
-  { "name": "Bill", "icon": "calculator" },
-  { "name": "Mobile", "icon": "radio" },
+  { "name": "Bill", "icon": "card" },
+  { "name": "Mobile", "icon": "laptop" },
   { "name": "More", "icon": "menu" }
 ],
 
