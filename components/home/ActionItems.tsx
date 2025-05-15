@@ -1,4 +1,4 @@
-import { View, Text, FlatList } from 'react-native'
+import { View, Text, FlatList, TouchableOpacity } from 'react-native'
 import React from 'react'
 import data from '../../assets/data.json'
 import { Ionicons } from '@expo/vector-icons'
@@ -19,10 +19,10 @@ const ActionItems = () => {
           justifyContent: 'space-between',
         }}
         renderItem={({ item }) => (
-          <View className='bg-white w-24 h-24 p-2 items-center justify-center rounded-full'>
+          <TouchableOpacity className='bg-white w-24 h-24 p-2 items-center justify-center rounded-full'>
             <Ionicons name={item.icon} size={24} color="black" />
             <Text className='text-base font-semibold'>{item.name}</Text>
-          </View>
+          </TouchableOpacity>
         )}
       />
     </View>
