@@ -10,12 +10,13 @@
       "expiry": "07/26"
     }
   },
-  "actions": [
-    { "name": "Send" },
-    { "name": "Bill" },
-    { "name": "Mobile" },
-    { "name": "More" }
-  ],
+"actions": [
+  { "name": "Send", "icon": "send" },
+  { "name": "Bill", "icon": "calculator" },
+  { "name": "Mobile", "icon": "radio" },
+  { "name": "More", "icon": "menu" }
+],
+
   "quick_send": [
     { "name": "Azie", "avatar": "https://example.com/azie.jpg" },
     { "name": "Chaoir", "avatar": "https://example.com/chaoir.jpg" },
