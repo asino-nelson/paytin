@@ -18,7 +18,7 @@ const SpendingCard = () => {
 
             <Text className='font-bold text-gray-300 text-3xl my-2'>${data.statistics.spending.total}</Text>
 
-            <Ionicons name="stats-chart-outline" size={50} color="white" />
+            <Ionicons name="bar-chart-outline" size={50} color="white" />
 
 
             <View className='flex-row items-center justify-between mt-4 pt-4 '>

@@ -68,13 +68,50 @@
         "credit_card": 1150.80
       }
     },
-    "monthly_chart": [
-      { "month": "Jan", "debit": 1200, "credit": 800 },
-      { "month": "Feb", "debit": 1500, "credit": 1000 },
-      { "month": "Mar", "debit": 1800, "credit": 900 },
-      { "month": "Apr", "debit": 2000, "credit": 1100 },
-      { "month": "May", "debit": 2410, "credit": 1150 },
-      { "month": "Jun", "debit": 1800, "credit": 950 }
+   "monthly_chart": [
+      {
+        "label": "Jan",
+        "bars": [
+          { "value": 1200, "frontColor": "#A2E837", "label": "Debit" },
+          { "value": 800, "frontColor": "#121212", "label": "Credit" }
+        ]
+      },
+      {
+        "label": "Feb",
+        "bars": [
+          { "value": 1500, "frontColor": "#A2E837", "label": "Debit" },
+          { "value": 1000, "frontColor": "#121212", "label": "Credit" }
+        ]
+      },
+      {
+        "label": "Mar",
+        "bars": [
+          { "value": 1800, "frontColor": "#A2E837", "label": "Debit" },
+          { "value": 900, "frontColor": "#121212", "label": "Credit" }
+        ]
+      },
+      {
+        "label": "Apr",
+        "bars": [
+          { "value": 2000, "frontColor": "#A2E837", "label": "Debit" },
+          { "value": 1100, "frontColor": "#121212", "label": "Credit" }
+        ]
+      },
+      {
+        "label": "May",
+        "bars": [
+          { "value": 2410, "frontColor": "#A2E837", "label": "Debit" },
+          { "value": 1150, "frontColor": "#121212", "label": "Credit" }
+        ]
+      },
+      {
+        "label": "Jun",
+        "bars": [
+          { "value": 1800, "frontColor": "#A2E837", "label": "Debit" },
+          { "value": 950, "frontColor": "#121212", "label": "Credit" }
+        ]
+      }
     ]
+
   }
 }
