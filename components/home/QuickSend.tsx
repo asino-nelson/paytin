@@ -18,6 +18,7 @@ const QuickSend = () => {
                 horizontal
                 showsHorizontalScrollIndicator={false}
                 keyExtractor={(item) => item.name}
+                scrollEnabled={false}
                 contentContainerStyle={{
                     width: '100%',
                     paddingHorizontal: 10,

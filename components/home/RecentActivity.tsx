@@ -17,6 +17,8 @@ const RecentActivity = () => {
                 <FlatList
                     data={data.recent_activity}
                     keyExtractor={(item) => item.title}
+                    scrollEnabled={false}
+                    showsVerticalScrollIndicator={false}
                     contentContainerStyle={{
                         width: '100%',
                         paddingVertical: 5,
