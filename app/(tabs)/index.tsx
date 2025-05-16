@@ -10,7 +10,7 @@ export default function HomeScreen() {
   return (
     <SafeAreaView >
       <ScrollView
-        className=' px-5 pb-20 bg-lime-200 '
+        className=' p-5 pb-20 bg-lime-200 '
         showsVerticalScrollIndicator={false}
       >
         <WelcomeUser />

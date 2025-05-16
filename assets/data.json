@@ -50,7 +50,12 @@
     }
   ],
   "statistics": {
-    "period": "monthly",
+    "period": [
+      { "name": "Today" },
+      { "name": "Weekly" },
+      { "name": "Monthly" },
+      { "name": "Yearly" }
+    ],
     "earning": {
       "percentage": 24,
       "goal": 2567,
