@@ -18,7 +18,7 @@ const Period = () => {
     const periodData = data?.statistics?.period || []
 
     return (
-        <View>
+        <View className='my-2'>
             <FlatList
                 data={periodData}
                 horizontal

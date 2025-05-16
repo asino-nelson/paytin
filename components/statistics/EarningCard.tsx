@@ -5,9 +5,9 @@ import data from '../../assets/data.json'
 
 const EarningCard = () => {
     return (
-        <View className='bg-lime-500 max-w-1/2 rounded-3xl p-5'>
-            <View className='flex-1 flex-row items-center justify-between'>
-                <View className='flex-row w-full items-center py-2'>
+        <View className='bg-lime-500 w-52 h-64 items-start justify-around rounded-3xl p-5'>
+            <View className=' flex-row items-center justify-between'>
+                <View className='flex-row w-full items-center'>
                     <Ionicons name='trending-up-sharp' size={16} color="black" />
                     <Text className='text-lg font-bold'> Earning</Text>
                 </View>

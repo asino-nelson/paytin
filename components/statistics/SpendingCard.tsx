@@ -5,9 +5,9 @@ import data from '../../assets/data.json'
 
 const SpendingCard = () => {
     return (
-        <View className='bg-black max-w-1/2 rounded-3xl p-5'>
-            <View className='flex-1 flex-row items-center justify-between'>
-                <View className='flex-row w-full items-center py-2'>
+        <View className='bg-black w-52 h-64 items-start justify-around rounded-3xl p-5'>
+            <View className=' flex-row items-center justify-between'>
+                <View className='flex-row w-full items-center'>
                     <Ionicons name='trending-down-sharp' size={16} color="#84CC16" />
                     <Text className='text-lg font-bold text-lime-500'> Spending</Text>
                 </View>
@@ -23,12 +23,10 @@ const SpendingCard = () => {
 
             <View className='flex-row items-center justify-between mt-4 pt-4 '>
                 <View className='flex-row items-center justify-between'>
-                    <Text className='text-gray-300 font-bold'>Debit Card - </Text>
-                    <Text className='text-gray-300 font-bold'>${data.statistics.spending.breakdown.debit_card}</Text>
+                    <Text className='text-gray-300 text-xs font-bold'>Debit Card</Text>
                 </View>
                 <View className='flex-row items-center justify-between'>
-                    <Text className='text-gray-300 font-bold'>Credit Card - </Text>
-                    <Text className='text-gray-300 font-bold'>${data.statistics.spending.breakdown.credit_card}</Text>
+                    <Text className='text-gray-300 text-xs font-bold'>Credit Card</Text>
                 </View>
             </View>
 

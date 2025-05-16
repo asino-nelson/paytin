@@ -11,10 +11,9 @@ export default function TabTwoScreen() {
       <ScrollView className='p-5 bg-lime-200'>
         <TopHeader />
         <Period />
-        <EarningCard />
-        <SpendingCard />
-        <View className='w-full flex-row items-center justify-between'>
-
+        <View className='flex-row items-center justify-between my-4'>
+          <EarningCard />
+          <SpendingCard />
         </View>
       </ScrollView>
     </SafeAreaView>
