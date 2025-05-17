@@ -10,20 +10,34 @@ export default function TabLayout() {
     <Tabs
       screenOptions={{
         headerShown: false,
+        tabBarShowLabel: false,
         headerShadowVisible: false,
-        tabBarStyle: Platform.select({
-          ios: {
-            // Use a transparent background on iOS to show the blur effect
-            position: 'absolute',
-          },
-          default: {},
-        }),
+        // tabBarActiveTintColor: "#D9F99D",
+        // tabBarInactiveTintColor: "gray",
+        tabBarStyle: {
+          backgroundColor: '#1A2E05',
+        },
       }}>
       <Tabs.Screen
         name="index"
         options={{
           title: 'Home',
-          tabBarIcon: ({ focused }) => <Ionicons size={28} name={focused ? 'home' : 'home-outline'} color="black" />,
+          tabBarIcon: ({ focused }) => <Ionicons
+            size={28}
+            name={focused ? 'home' : 'home-outline'}
+            color="black"
+          />,
+        }}
+      />
+      <Tabs.Screen
+        name="scan"
+        options={{
+          title: 'Scan',
+          tabBarIcon: ({ focused }) => <Ionicons
+            size={28}
+            name={focused ? 'scan-circle' : 'scan-circle-outline'}
+            color="black"
+          />,
         }}
       />
       <Tabs.Screen

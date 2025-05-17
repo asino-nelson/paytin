@@ -4,15 +4,18 @@ import "../global.css"
 
 
 export default function RootLayout() {
- 
+
 
   return (
     <>
-      <Stack>
+      <Stack
+        screenOptions={{
+          statusBarBackgroundColor: "#D9F99D"
+        }}
+      >
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
-      <StatusBar style="auto" />
     </>
   );
 }
